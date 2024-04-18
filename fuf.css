@@ -1,0 +1,56 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: center;
+     align-items: center;
+     max-width: 1062px;
+     width: 100%;
+     margin: left;
+     background-color: #fdfcfc;
+     height: 100%;
+     color: black;
+}
+
+.header {
+     text-align: center;
+}
+
+.navbar div {
+  display: inline-block;
+  position: relative;
+  padding: 0 30px; /* Добавляем отступы между словами */
+     border: 1px solid #f4f4f4;
+}
+
+.navbar div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -5px; /* Расстояние между словами */
+  bottom: 0;
+  width: 1px; /* Толщина разделительной линии */
+  background-color: #000; /* Цвет разделительной линии */
+}
+
+h1 {
+    margin-top: 50px;
+     font-size: 23px;
+    text-align: left;
+    font-weight: 100;
+}
+
+p {
+    font-size: 15px;
+    text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Равномерно распределить элементы по горизонтали */
+}
+
+.text1, .text2 {
+  padding: 10px; /* Добавить отступы вокруг текста */
+}
